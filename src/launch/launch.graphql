@@ -1,7 +1,7 @@
-type launch {
+type Launch {
   id: ID!
   site: String
-  mission: mission
+  mission: Mission
   rocket: Rocket
   isBooked: Boolean!
 }
